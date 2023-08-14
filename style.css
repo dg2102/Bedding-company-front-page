@@ -1,0 +1,168 @@
+*{
+    margin:0;
+    padding: 0;;
+}
+body{
+    background-image: url('Bed.jpg');
+    background-position:center;
+    background-size: cover;
+   background-repeat: no-repeat;
+   height:100vh;
+  
+   /*vh important for setting viewport height to full screen*/
+
+}
+
+h1{
+    
+    color: white;
+    font-size: 56px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    margin: auto;
+    position: relative;
+    top: 150px;
+    cursor: pointer;
+}
+/*h1:hover{
+    color:red;
+}*/
+ p{
+   
+    color:white;
+    font-size:18px;
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+   position: relative;
+    top: 160px;
+  
+
+ 
+
+   
+}
+.icon{
+   font-size: 25px;
+   font-weight: bold;
+    position: relative;
+    float: left;
+    margin-left: 38px;
+    bottom: 90px;
+}
+.navbar{
+
+    position:relative;
+    float:right;
+   margin-right:58px;
+   bottom: 85px;
+ 
+    
+}
+   
+  
+
+
+
+.navbar a{
+  
+    font-family: sans-serif;
+    color:white;
+    font-size: 13px;
+    margin:15px;
+    padding:5px;
+   text-decoration: none;
+    font-family:Arial;
+    transition: 1s ease;
+    
+    text-decoration: 2px underline transparent;
+    
+   
+}
+.navbar a:hover{
+   
+    text-decoration: 2px underline aqua;
+   
+
+}
+.btn {
+   
+  
+   position: relative;
+   top: 180px;
+   margin:  0 50%;
+   
+
+  
+   
+}
+.btn button{
+    
+    border:3px solid rgb(82, 212, 212);
+    background: transparent;
+    cursor: pointer;
+    align-items: center;
+    transition: 0.5s ease-in;
+    
+}
+.btn a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 14px;
+   
+    
+    transition: 0.5s ease;
+}
+.btn button:hover{
+    color: black;
+    background-color:rgb(82, 212, 212) ;
+    border: 3px solid transparent;
+}
+ 
+   
+   
+   
+
+
+
+.btn a:hover{
+    color: black;
+    font-size:14px;
+}
+
+
+
+   
+
+.btn .cn{
+    height:39px;
+    width:170px;
+    align-items: center;
+    border-radius: 50px;
+    margin-left: 10px;
+    
+   
+   
+   
+    
+}
+.btn .cnr{
+    height:39px;
+    width:170px;
+    align-items: center;
+    float: right;
+    margin-bottom: 50px;
+    border-radius: 50px;
+    position: relative;
+    bottom: 39px;
+    margin-right: 15px;
+  
+    
+   
+    
+}
